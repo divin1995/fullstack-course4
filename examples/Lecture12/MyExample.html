@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Style Test</title>
+    <style>
+        h1{
+            color: lightskyblue;
+            text-align: center;
+            font-size: 44px;
+        }
+        h2{
+            color: darkseagreen;
+            text-align: center;
+            font-size: 40px;
+            padding-left: 15%;
+        }
+        h3{
+            color: gray;
+            text-align: center;
+            font-size: 32px;
+            padding-left: 15%;
+        }
+        p{
+            color: black;
+            width: auto;
+            text-align: center;
+            padding-left: 15%;
+            padding-right: 50px;
+            font-size: 20px;        
+        }
+        div{
+            color: black;
+            width: auto;
+            text-align: center;
+            padding-left: 15%;
+            padding-right: 50px;
+            font-size: 20px;  
+        }
+        #SideNav{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 10%;
+            background-color: #f1f1f1;
+            height: 100%;
+            overflow: auto;
+            position: fixed;
+        }
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        /* Change the link color on hover */
+        li a:hover {
+            background-color: #555;
+            color: white;
+        }
+        li a.active {
+            background-color: #4CAF50;
+            color: white;
+        }            
+    </style>
+</head>
+<body>
+    <ul id="SideNav">
+        <li><a class="active" href="#top">Top</a></li>
+        <li><a href="#picture">Amma</a></li>
+        <li><a href="#quotes">Quotes</a></li>
+        <li><a href="#contact">Contacts</a></li>
+    </ul>
+    <h1 id="top" style="padding-left: 15%;">Mata Amritanandamayi</h1>
+        <article>
+            <img id="picture" src="https://lh3.googleusercontent.com/proxy/57IXI3Cshd04hV9Z-xIbri7_iClZu5-Wim8lDun1Yv-l8xnFqhAgs7F994uq5TdUQifdl0K9aARLfyFY4VJHKghWiJaAahpjhUFOgwXHuJbFQVAzi_o_3fIaZigLdmliTA" 
+            height="500" width="450" style="display: block;margin-left: auto; margin-right: auto; padding-left: 15%;">
+        </article>        
+    <section>
+        <article>
+            <h2 id="quotes">Quotes</h2>
+            <h3>Find yourself</h3>
+            <p>
+                &quot;The sun shines down, and its image reflects in a thousand different pots filled with water. 
+                The reflections are many, but they are each reflecting the same sun. 
+                Similarly, when we come to know who we truly are, we will see ourselves in all people.&quot;
+            </p>
+        </article>
+        <article>
+            <h3>Express Love Through Action</h3>
+            <p>
+                &quot;The common expression is ‘I love you.’ But instead of ‘I love you,’ it would be better to say, 
+                ‘I am love — I am the embodiment of pure love.’ Remove the I and you, and you will find that there is only love. 
+                It is as if love is imprisoned between the I and you. Remove the I and you, for they are unreal; they are self-imposed walls that don’t exist. 
+                The gulf between I and you is the ego. When the ego is removed the distance disappears and the I and you also disappear. 
+                They merge to become one — and that is love. You lend the I and you their reality. Withdraw your support and they will disappear. 
+                Then you will realise, not that ‘I love you,’ but that ‘I am that all-embracing love.'&quot;
+            </p>
+        </article>
+        <article>
+            <h3>Express Love Through Action</h3>
+            <p>
+                &quot;"True happiness is when the love that is within us finds expression in external activities."&quot;
+            </p>
+        </article>
+    </section>    
+    <section>
+        <h2 id="contact">Contact Us</h2>
+        <p>Divin Vishnu Ramachandran</p>
+    </section>
+    <div style="text-align: center;"><a href="#top">Back to the top</a></div>
+</body>
+</html>
