@@ -4,9 +4,39 @@
 <meta charset="utf-8">
 <title>Pseudo Class Selectors</title>
 <style>
-/* Styles go here. */
 
+header li{
+  list-style: none;
+}
 
+a:link, a:visited{
+  text-decoration: none;
+  background-color: lightgreen;
+  border: 1px solid blue;
+  color: black;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+a:hover, a:active{
+  background-color: black;
+  color: white;
+}
+
+header li:nth-child(3){
+  font-size: 24px;
+}
+
+section div:nth-child(odd){
+  background-color: grey;
+}
+
+section div:nth-child(4):hover{
+  background-color: green;
+  color: black;
+}
 </style>
 </head>
 <body>
